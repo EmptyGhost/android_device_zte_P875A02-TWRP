@@ -16,7 +16,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 $(call inherit-product, device/zte/P875A02/device.mk)
 
 PRODUCT_DEVICE := P875A02
-PRODUCT_NAME := omni_P875A02
+PRODUCT_NAME := twrp_P875A02
 PRODUCT_BRAND := ZTE
 PRODUCT_MODEL := ZTE A2022H
 PRODUCT_MANUFACTURER := zte
