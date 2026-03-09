@@ -91,6 +91,9 @@ PLATFORM_SECURITY_PATCH := 2099-12-31
 VENDOR_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
 
+# Vibrator
+TW_SUPPORT_INPUT_AIDL_HAPTICS := true
+
 # TWRP Configuration
 TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
@@ -101,4 +104,5 @@ TW_INCLUDE_REPACKTOOLS := true
 TW_Y_OFFSET := 90
 TW_H_OFFSET := -90
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone0/temp"
+TW_LOAD_VENDOR_MODULES := "swr_dlkm.ko swr_haptics_dlkm.ko zte_goodix_core.ko"
 
