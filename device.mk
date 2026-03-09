@@ -40,3 +40,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/root/vendor/firmware/goodix_cfg_group_gt9897.bin:recovery/root/vendor/firmware/goodix_cfg_group_gt9897.bin \
     $(LOCAL_PATH)/recovery/root/vendor/firmware/goodix_firmware.bin:recovery/root/vendor/firmware/goodix_firmware.bin \
     $(LOCAL_PATH)/recovery/root/vendor/firmware/goodix_firmware_gt9897.bin:recovery/root/vendor/firmware/goodix_firmware_gt9897.bin
+
+PRODUCT_PROPERTY_OVERRIDES += sys.usb.controller=a600000.dwc3
